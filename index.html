@@ -36,54 +36,112 @@
 
   <div class="hero_area">
     <!-- header section strats -->
-    <header class="header_section">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
-            <span>UnderBug</span>
-          </a>
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class=""> </span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Underbug</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Serviços</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Soluções</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Conteúdo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Fale conosco</a>
-              </li>
-            </ul>
-            <div class="quote_btn-container">
-              <form class="form-inline">
-                <button class="btn   nav_search-btn" type="submit">
-                  <i class="fa fa-search" aria-hidden="true"></i>
-                </button>
-              </form>
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>
-                </span>
+  <header>
+    <nav class="navbar">
+      <a class="navbar-brand" href="#">UNDERBUG</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Underbug</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Serviços
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">
+                <div class="menu-item">
+                  <span class="icon">&#9873;</span>
+                  <div>
+                    <h3>Teste de Invasão (Pentest)</h3>
+                    <p>Vulnerabilidades em suas redes, sistemas e aplicações.</p>
+                  </div>
+                </div>
+              </a>
+              <a class="dropdown-item" href="#">
+                <div class="menu-item">
+                  <span class="icon">&#128187;</span>
+                  <div>
+                    <h3>Resposta a Incidentes e Computação Forense</h3>
+                    <p>Perícia Forense Computacional.</p>
+                  </div>
+                </div>
+              </a>
+              <a class="dropdown-item" href="#">
+                <div class="menu-item">
+                  <span class="icon">&#128640;</span>
+                  <div>
+                    <h3>Desenvolvimento Seguro de Software</h3>
+                    <p>Avalie a segurança de aplicações ao longo de todo o ciclo de vida.</p>
+                  </div>
+                </div>
+              </a>
+              <a class="dropdown-item" href="#">
+                <div class="menu-item">
+                  <span class="icon">&#128187;</span>
+                  <div>
+                    <h3>Inteligência contra Ameaças Cibernéticas</h3>
+                    <p>Identifique ameaças avançadas com uso de Inteligência.</p>
+                  </div>
+                </div>
+              </a>
+              <a class="dropdown-item" href="#">
+                <div class="menu-item">
+                  <span class="icon">&#128736;</span>
+                  <div>
+                    <h3>Treinamento e Conscientização em Segurança</h3>
+                    <p>Programas de Treinamento sob medida para a sua organização.</p>
+                  </div>
+                </div>
+              </a>
+              <a class="dropdown-item" href="#">
+                <div class="menu-item">
+                  <span class="icon">&#9729;</span>
+                  <div>
+                    <h3>Cloud Security</h3>
+                    <p>Segurança na nuvem para empresas.</p>
+                  </div>
+                </div>
+              </a>
+              <a class="dropdown-item" href="#">
+                <div class="menu-item">
+                  <span class="icon">&#9997;</span>
+                  <div>
+                    <h3>Governança, Risco e Compliance</h3>
+                    <p>Mantenha a conformidade do seu negócio.</p>
+                  </div>
+                </div>
               </a>
             </div>
-          </div>
-        </nav>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Soluções</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Conteúdo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Fale conosco</a>
+          </li>
+        </ul>
+        <div class="quote_btn-container">
+          <form class="form-inline">
+            <button class="btn nav_search-btn" type="submit">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+          </form>
+          <a href="">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <span>
+            </span>
+          </a>
+        </div>
       </div>
-    </header>
+    </nav>
+  </header>
     <!-- end header section -->
     <!-- slider section -->
     <section class="slider_section ">
@@ -791,12 +849,15 @@
     <div class="container">
       <p>
         &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Underbug</a>
+        <a href="https://underbug.com.br/">Underbug</a>
       </p>
     </div>
   </footer>
   <!-- footer section -->
-
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
   <!-- jQery -->
   <script src="js/jquery-3.4.1.min.js"></script>
   <!-- bootstrap js -->
