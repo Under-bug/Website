@@ -880,6 +880,40 @@ a:focus {
   color: #ff4646;
 }
 
+/* Menu dropdown */
+.navbar-nav .nav-item .dropdown-menu {
+  background-color: #17171e;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-item .menu-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dropdown-item .icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.dropdown-item h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.dropdown-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #b5b5b5;
+}
+
 /* info section */
 .info_section {
   background-color: #020230;
