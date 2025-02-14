@@ -909,7 +909,7 @@ a:focus {
 
 /* info section */
 .info_section {
-  background-color: #020230;
+  background-color: #000000;
   color: #ffffff;
 }
 
@@ -1048,7 +1048,7 @@ a:focus {
 /* footer section*/
 .footer_section {
   position: relative;
-  background-color: #020230;
+  background-color: #000000;
   text-align: center;
 }
 
