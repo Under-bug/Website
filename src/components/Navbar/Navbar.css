@@ -1,0 +1,36 @@
+/* Custom animations for navbar */
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px rgba(6, 182, 212, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(6, 182, 212, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(6, 182, 212, 0.5);
+  }
+}
+
+.navbar-button-glow:hover {
+  animation: glow 2s infinite;
+}
+
+.nav-link-hover {
+  position: relative;
+}
+
+.nav-link-hover::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background: linear-gradient(90deg, #06b6d4, #8b5cf6);
+  transition: width 0.3s ease;
+}
+
+.nav-link-hover:hover::after {
+  width: 100%;
+}

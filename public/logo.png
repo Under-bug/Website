@@ -1,0 +1,1 @@
+<command>curl -o public/logo.png https://raw.githubusercontent.com/yourusername/underbug/main/public/logo.png</command>

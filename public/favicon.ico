@@ -1,0 +1,1 @@
+<command>curl -o public/favicon.ico https://raw.githubusercontent.com/yourusername/underbug/main/public/favicon.ico</command>
